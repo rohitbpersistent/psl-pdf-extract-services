@@ -7,7 +7,7 @@ const AdmZip = require('adm-zip');
 
 const OUTPUT_ZIP = './ExtractTextInfoFromPDF.zip';
 
-//Remove if the output already exists.
+//Remove if the output already exists. 
 if (fs.existsSync(OUTPUT_ZIP)) fs.unlinkSync(OUTPUT_ZIP);
 
 const INPUT_PDF = './EUR-SustainabilityReportingMatrix.pdf'; //File path of the document for which extraction to be happened. 
