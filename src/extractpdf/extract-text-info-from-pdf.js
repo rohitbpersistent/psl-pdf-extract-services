@@ -33,7 +33,8 @@ try {
     // Create a new operation instance.
     const extractPDFOperation = PDFServicesSdk.ExtractPDF.Operation.createNew(),
         input = PDFServicesSdk.FileRef.createFromLocalFile(
-            '../../resources/Manager Career Conversation Guide (1).pdf',
+            '../../resources/O&S Educational Assistance Program Policy.pdf',
+            // '../../resources/Manager Career Conversation Guide (1).pdf',
             PDFServicesSdk.ExtractPDF.SupportedSourceFormat.pdf
         );
 
