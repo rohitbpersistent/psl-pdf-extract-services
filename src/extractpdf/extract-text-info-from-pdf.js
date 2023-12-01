@@ -10,6 +10,7 @@
  */
 const Factory = require('../factory/factory')
 const PDFServicesSdk = require('@adobe/pdfservices-node-sdk');
+const PDF_SOURCE_FILE_NAME = 'O&S Educational Assistance Program Policy.pdf'
 /**
  * This sample illustrates how to extract Text Information from PDF.
  * <p>
@@ -33,8 +34,8 @@ try {
     // Create a new operation instance.
     const extractPDFOperation = PDFServicesSdk.ExtractPDF.Operation.createNew(),
         input = PDFServicesSdk.FileRef.createFromLocalFile(
-            '../../resources/O&S Educational Assistance Program Policy.pdf',
-            // '../../resources/Manager Career Conversation Guide (1).pdf',
+            // '../../resources/' + PDF_SOURCE_FILE_NAME,
+            '../../resources/Manager Career Conversation Guide (1).pdf',
             PDFServicesSdk.ExtractPDF.SupportedSourceFormat.pdf
         );
 
@@ -46,12 +47,12 @@ try {
 
     //Generating a file name
     let outputFilePath = createOutputFilePath();
-
+console.log('outputFilePath', outputFilePath); 
     extractPDFOperation.execute(executionContext)
         .then(result => result.saveAsFile(outputFilePath))
         .then(() => {
             console.log('Routing to Factory')
-            Factory.process(`../extractpdf/${outputFilePath}`)
+            Factory.process(`../extractpdf/${outputFilePath}`, PDF_SOURCE_FILE_NAME)
         })
         .catch(err => {
             if(err instanceof PDFServicesSdk.Error.ServiceApiError

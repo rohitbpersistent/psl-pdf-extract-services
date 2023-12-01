@@ -1,0 +1,1172 @@
+{
+  "version": {
+    "json_export": "192",
+    "page_segmentation": "5",
+    "schema": "1.1.0",
+    "structure": "1.1065.0",
+    "table_structure": "5"
+  },
+  "extended_metadata": {
+    "ID_instance": "FC 7B F5 85 90 B8 B2 11 0A 00 67 45 8B 6B C6 23 ",
+    "ID_permanent": "32 41 20 45 46 20 46 32 20 38 35 20 39 30 20 42 38 20 42 32 20 31 31 20 30 41 20 30 30 20 36 37 20 34 35 20 38 42 20 36 42 20 43 36 20 32 33 20 ",
+    "pdf_version": "1.6",
+    "pdfa_compliance_level": "",
+    "is_encrypted": false,
+    "has_acroform": false,
+    "is_digitally_signed": false,
+    "pdfua_compliance_level": "",
+    "page_count": 4,
+    "has_embedded_files": false,
+    "is_certified": false,
+    "is_XFA": false,
+    "language": "en"
+  },
+  "elements": [
+    {
+      "Bounds": [-0.25, -0.25, 1440.25, 810.25],
+      "ClipBounds": [-0.25, -0.25, 1440.25, 810.25],
+      "Page": 0,
+      "Path": "//Document/Sect/Figure",
+      "attributes": {
+        "BBox": [
+          0.0, 0.0329589999999999, 1439.9399999999441, 770.6419999999925
+        ],
+        "Placement": "Block"
+      }
+    },
+    {
+      "Bounds": [-0.25, -0.25, 1440.25, 810.25],
+      "ClipBounds": [-0.25, -0.25, 1440.25, 810.25],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "Arial-BoldMT",
+        "subset": false,
+        "weight": 700
+      },
+      "HasClip": true,
+      "Page": 0,
+      "Path": "//Document/Sect/Figure",
+      "Text": "Manager Career Conversation Guide ",
+      "TextSize": 45.0,
+      "attributes": {
+        "BBox": [
+          0.0, 0.0329589999999999, 1439.9399999999441, 770.6419999999925
+        ],
+        "Placement": "Block"
+      }
+    },
+    {
+      "Bounds": [
+        81.02499389648438, 671.0747528076172, 400.6985321044922,
+        719.8742065429688
+      ],
+      "ClipBounds": [
+        81.02499389648438, 671.0747528076172, 400.6985321044922,
+        719.8742065429688
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "Arial-BoldMT",
+        "subset": false,
+        "weight": 700
+      },
+      "HasClip": true,
+      "Lang": "en",
+      "Page": 1,
+      "Path": "//Document/Sect[2]/H1",
+      "Text": "YOUR ROLE ",
+      "TextSize": 52.024993896484375,
+      "attributes": { "LineHeight": 62.375 }
+    },
+    {
+      "Bounds": [
+        81.02499389648438, 619.6840057373047, 702.5393981933594,
+        661.4647979736328
+      ],
+      "ClipBounds": [
+        81.02499389648438, 619.6840057373047, 702.5393981933594,
+        661.4647979736328
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Lang": "en",
+      "Page": 1,
+      "Path": "//Document/Sect[2]/P",
+      "Text": "Use this guide to support growth conversations with your associates, which should occur on a regular basis throughout the year. ",
+      "TextSize": 16.600006103515625
+    },
+    {
+      "Bounds": [0.0, 440.1499938964844, 1439.0, 809.3999938964844],
+      "ClipBounds": [0.0, 440.1499938964844, 1439.0, 809.3999938964844],
+      "Page": 1,
+      "Path": "//Document/Sect[2]/Figure",
+      "attributes": {
+        "BBox": [
+          0.0, 440.17499999998836, 1438.9799999999814, 809.3999999999942
+        ],
+        "Placement": "Block"
+      }
+    },
+    {
+      "Bounds": [
+        81.02499389648438, 461.42474365234375, 728.6864318847656,
+        484.898193359375
+      ],
+      "ClipBounds": [
+        81.02499389648438, 461.42474365234375, 728.6864318847656,
+        484.898193359375
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "Arial-BoldMT",
+        "subset": false,
+        "weight": 700
+      },
+      "HasClip": true,
+      "Lang": "en",
+      "Page": 1,
+      "Path": "//Document/Sect[3]/H1",
+      "Text": "Why are career development conversations necessary? ",
+      "TextSize": 25.024993896484375,
+      "attributes": { "LineHeight": 30, "SpaceAfter": 18 }
+    },
+    {
+      "Bounds": [
+        81.02499389648438, 283.73399353027344, 726.2014770507812,
+        436.7568054199219
+      ],
+      "ClipBounds": [
+        81.02499389648438, 283.73399353027344, 726.2014770507812,
+        436.7568054199219
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Lang": "en",
+      "Page": 1,
+      "Path": "//Document/Sect[3]/P",
+      "Text": "To gain awareness and understanding about the associate\u2019s career interests, goals, strengths, skills, and work preferences. Associates need to discover their own path for the future. This process empowers them to manage their personal development and growth while also ensuring they feel heard, and remain engaged. This process also provides managers with insight and opportunities to support each associate\u2019s development, contributing directly to increased retention. ",
+      "TextSize": 16.600006103515625,
+      "attributes": { "SpaceAfter": 15.125 }
+    },
+    {
+      "Bounds": [
+        345.6499938964844, 236.9499969482422, 467.5249938964844,
+        260.3999938964844
+      ],
+      "ClipBounds": [
+        345.6499938964844, 236.9499969482422, 467.5249938964844,
+        260.3999938964844
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "Arial-BoldMT",
+        "subset": false,
+        "weight": 700
+      },
+      "HasClip": true,
+      "Lang": "en",
+      "Page": 1,
+      "Path": "//Document/Sect[4]/H1",
+      "Text": "Your Role ",
+      "TextSize": 25.0,
+      "attributes": { "LineHeight": 30, "SpaceAfter": 18 }
+    },
+    {
+      "Bounds": [
+        374.6499938964844, 188.91400146484375, 1247.9942016601562,
+        204.48480224609375
+      ],
+      "ClipBounds": [
+        374.6499938964844, 188.91400146484375, 1247.9942016601562,
+        204.48480224609375
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 1,
+      "Path": "//Document/Sect[4]/L/LI/LBody",
+      "Text": "Create an atmosphere where your associates feel comfortable being open and honest. Be empathetic and supportive. ",
+      "TextSize": 16.600006103515625
+    },
+    {
+      "Bounds": [
+        374.6499938964844, 137.8939971923828, 1364.2309875488281,
+        180.4647979736328
+      ],
+      "ClipBounds": [
+        374.6499938964844, 137.8939971923828, 1364.2309875488281,
+        180.4647979736328
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 1,
+      "Path": "//Document/Sect[4]/L/LI[2]/LBody",
+      "Text": "Provide guidance to ensure that your associate understands the business context and is aware of opportunities that align with future interests. ",
+      "TextSize": 16.600006103515625
+    },
+    {
+      "Bounds": [
+        374.6499938964844, 110.95120239257812, 1340.6223907470703,
+        129.476806640625
+      ],
+      "ClipBounds": [
+        374.6499938964844, 110.95120239257812, 1340.6223907470703,
+        129.476806640625
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 1,
+      "Path": "//Document/Sect[4]/L/LI[3]/LBody",
+      "Text": "Be curious. Ask open-ended questions to generate more discussion and gain a full picture of your associate\u2019s strengths and skills. ",
+      "TextSize": 16.600006103515625
+    },
+    {
+      "Bounds": [
+        374.6499938964844, 57.063995361328125, 1360.4539947509766,
+        99.67799377441406
+      ],
+      "ClipBounds": [
+        374.6499938964844, 57.063995361328125, 1360.4539947509766,
+        99.67799377441406
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 1,
+      "Path": "//Document/Sect[4]/L/LI[4]/LBody",
+      "Text": "Help your associate find training, education, and on the job experiences to bridge the gap between current skills and experience and what he or she needs to achieve desired goals. ",
+      "TextSize": 16.600006103515625
+    },
+    {
+      "Bounds": [
+        374.6499938964844, 27.464004516601562, 1300.7657775878906,
+        43.03480529785156
+      ],
+      "ClipBounds": [
+        374.6499938964844, 27.464004516601562, 1300.7657775878906,
+        43.03480529785156
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 1,
+      "Path": "//Document/Sect[4]/L/LI[5]/LBody",
+      "Text": "Utilize tools & resources with your associates to help them identify the most appropriate competencies for them to focus on. ",
+      "TextSize": 16.600006103515625
+    },
+    {
+      "Bounds": [
+        230.27000427246094, 671.4799957275391, 1267.9883880615234,
+        720.2559967041016
+      ],
+      "ClipBounds": [
+        230.27000427246094, 671.4799957275391, 1267.9883880615234,
+        720.2559967041016
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "Arial-BoldMT",
+        "subset": false,
+        "weight": 700
+      },
+      "HasClip": true,
+      "Lang": "en",
+      "Page": 2,
+      "Path": "//Document/Sect[5]/H1",
+      "Text": "How to Prepare for a Career Conversation ",
+      "TextSize": 52.0,
+      "attributes": {
+        "LineHeight": 62.375,
+        "SpaceAfter": 18,
+        "TextAlign": "Center"
+      }
+    },
+    {
+      "Bounds": [
+        241.1300048828125, 96.63400268554688, 1224.3246002197266, 595.25
+      ],
+      "ClipBounds": [
+        241.1300048828125, 96.63400268554688, 1224.3246002197266, 595.25
+      ],
+      "Page": 2,
+      "Path": "//Document/Sect[5]/Figure",
+      "attributes": {
+        "BBox": [
+          241.0699999999997, 96.62899999999718, 1219.6299999999464,
+          594.9689999999828
+        ],
+        "Placement": "Block"
+      }
+    },
+    {
+      "Bounds": [
+        241.1300048828125, 96.63400268554688, 1224.3246002197266, 595.25
+      ],
+      "ClipBounds": [
+        241.1300048828125, 96.63400268554688, 1224.3246002197266, 595.25
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 2,
+      "Path": "//Document/Sect[5]/Figure",
+      "Text": "Hold regular conversations Discuss next steps and align on how to move forward and when to meet next Prepare questions that help you coach the associate in self- discovery with his or her personal development and growth. What and how questions are most helpful Consider the current business environment and future needs that may align with your associate\u2019s career interests Familiarize yourself with the associate\u2019s role(s), projects/assignments and skills Review the associate's profile, goals, feedback received and note anything to discuss Think about roles, on-the-job-training and other available learning opportunities that can be a good match ",
+      "TextSize": 16.600006103515625,
+      "attributes": {
+        "BBox": [
+          241.0699999999997, 96.62899999999718, 1219.6299999999464,
+          594.9689999999828
+        ],
+        "Placement": "Block"
+      }
+    },
+    {
+      "Bounds": [
+        422.3999938964844, 705.7799987792969, 1009.4219818115234,
+        754.5559997558594
+      ],
+      "ClipBounds": [
+        422.3999938964844, 705.7799987792969, 1009.4219818115234,
+        754.5559997558594
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "Arial-BoldMT",
+        "subset": false,
+        "weight": 700
+      },
+      "HasClip": true,
+      "Lang": "en",
+      "Page": 3,
+      "Path": "//Document/Sect[6]/H1",
+      "Text": "Useful Questions & Tips ",
+      "TextSize": 52.0,
+      "attributes": { "LineHeight": 62.375 }
+    },
+    {
+      "Bounds": [
+        422.3999938964844, 676.35400390625, 953.1773681640625, 697.5527954101562
+      ],
+      "ClipBounds": [
+        422.3999938964844, 676.35400390625, 953.1773681640625, 697.5527954101562
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "Arial-BoldMT",
+        "subset": false,
+        "weight": 700
+      },
+      "HasClip": true,
+      "Lang": "en",
+      "Page": 3,
+      "Path": "//Document/Sect[6]/P",
+      "Text": "for a successful Career Development Conversation ",
+      "TextSize": 22.600006103515625,
+      "attributes": { "SpaceAfter": 18 }
+    },
+    {
+      "Bounds": [0.0, 533.0, 1440.25, 810.0],
+      "ClipBounds": [0.0, 533.0, 1440.25, 810.0],
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Figure",
+      "attributes": {
+        "BBox": [0.0, 533.0509999999776, 1439.9399999999441, 810.0],
+        "Placement": "Block"
+      }
+    },
+    {
+      "Bounds": [
+        79.47500610351562, 385.0899963378906, 301.7250061035156,
+        504.7640075683594
+      ],
+      "ClipBounds": [
+        79.47500610351562, 385.0899963378906, 301.7250061035156,
+        504.7640075683594
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "Arial-BoldMT",
+        "subset": false,
+        "weight": 700
+      },
+      "HasClip": true,
+      "Lang": "en",
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect/H2",
+      "Text": "Discover Strengths & Preferences ",
+      "TextSize": 38.0,
+      "attributes": { "LineHeight": 42, "SpaceAfter": 16.5 }
+    },
+    {
+      "Bounds": [
+        62.875, 274.3739929199219, 347.72679138183594, 363.23680114746094
+      ],
+      "ClipBounds": [
+        62.875, 274.3739929199219, 347.72679138183594, 363.23680114746094
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect/L/LI/LBody",
+      "Text": "In your past work experiences, what roles, project work, and environment did you enjoy? What would you prefer not to do again? ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        62.875, 249.57400512695312, 351.5395965576172, 264.20680236816406
+      ],
+      "ClipBounds": [
+        62.875, 249.57400512695312, 351.5395965576172, 264.20680236816406
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect/L/LI[2]/LBody",
+      "Text": "What do you wish you could do more of? ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [62.875, 200.1439971923828, 351.2823791503906, 239.625],
+      "ClipBounds": [62.875, 200.1439971923828, 351.2823791503906, 239.625],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect/L/LI[3]/LBody",
+      "Text": "What have you enjoyed the most in your past jobs? ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        62.875, 175.35400390625, 354.08079528808594, 189.98680114746094
+      ],
+      "ClipBounds": [
+        62.875, 175.35400390625, 354.08079528808594, 189.98680114746094
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect/L/LI[4]/LBody",
+      "Text": "What are you most interested in learning? ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        62.875, 125.81375122070312, 340.79640197753906, 165.3867950439453
+      ],
+      "ClipBounds": [
+        62.875, 125.81375122070312, 340.79640197753906, 165.3867950439453
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect/L/LI[5]/LBody",
+      "Text": "What tasks get pushed to the bottom of your \u201cto do\u201d list? ",
+      "TextSize": 15.625
+    },
+    {
+      "Bounds": [
+        396.1699981689453, 427.11474609375, 642.0919799804688, 504.7640075683594
+      ],
+      "ClipBounds": [
+        396.1699981689453, 427.11474609375, 642.0919799804688, 504.7640075683594
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "Arial-BoldMT",
+        "subset": false,
+        "weight": 700
+      },
+      "HasClip": true,
+      "Lang": "en",
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[2]/H2",
+      "Text": "Ask For More Information ",
+      "TextSize": 38.024993896484375,
+      "attributes": { "SpaceAfter": 18 }
+    },
+    {
+      "Bounds": [
+        400.9700012207031, 386.20399475097656, 571.052001953125,
+        400.83680725097656
+      ],
+      "ClipBounds": [
+        400.9700012207031, 386.20399475097656, 571.052001953125,
+        400.83680725097656
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[2]/L/LI/LBody",
+      "Text": "Tell me more about that. ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        400.9700012207031, 364.0039978027344, 672.4123992919922,
+        378.6367950439453
+      ],
+      "ClipBounds": [
+        400.9700012207031, 364.0039978027344, 672.4123992919922,
+        378.6367950439453
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[2]/L/LI[2]/LBody",
+      "Text": "What interests you about that? Or not? ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        400.9700012207031, 289.7740020751953, 659.5542755126953,
+        354.03680419921875
+      ],
+      "ClipBounds": [
+        400.9700012207031, 289.7740020751953, 659.5542755126953,
+        354.03680419921875
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[2]/L/LI[3]/LBody",
+      "Text": "In what work settings do you do your best work? What settings are challenging for you? ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        400.9700012207031, 215.5540008544922, 667.4231872558594,
+        279.60679626464844
+      ],
+      "ClipBounds": [
+        400.9700012207031, 215.5540008544922, 667.4231872558594,
+        279.60679626464844
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[2]/L/LI[4]/LBody",
+      "Text": "What strengths do you bring to a project/assignment? Which ones have the most impact? ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        400.9700012207031, 166.01919555664062, 645.6755981445312,
+        205.3867950439453
+      ],
+      "ClipBounds": [
+        400.9700012207031, 166.01919555664062, 645.6755981445312,
+        205.3867950439453
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[2]/L/LI[5]/LBody",
+      "Text": "What skills do you use at work that you\u2019d like to improve? ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        772.9499969482422, 427.11474609375, 982.6399841308594, 504.7640075683594
+      ],
+      "ClipBounds": [
+        772.9499969482422, 427.11474609375, 982.6399841308594, 504.7640075683594
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "Arial-BoldMT",
+        "subset": false,
+        "weight": 700
+      },
+      "HasClip": true,
+      "Lang": "en",
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[3]/H2",
+      "Text": "Explore the Future ",
+      "TextSize": 38.024993896484375,
+      "attributes": { "SpaceAfter": 18 }
+    },
+    {
+      "Bounds": [
+        751.9499969482422, 364.0039978027344, 1019.2227935791016,
+        403.23680114746094
+      ],
+      "ClipBounds": [
+        751.9499969482422, 364.0039978027344, 1019.2227935791016,
+        403.23680114746094
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[3]/L/LI/LBody",
+      "Text": "If you could create your ideal job, what would it involve? ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        751.9499969482422, 314.3887481689453, 1020.4227905273438,
+        353.82679748535156
+      ],
+      "ClipBounds": [
+        751.9499969482422, 314.3887481689453, 1020.4227905273438,
+        353.82679748535156
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[3]/L/LI[2]/LBody",
+      "Text": "What strengths and skills do you want to leverage? ",
+      "TextSize": 15.625
+    },
+    {
+      "Bounds": [
+        751.9499969482422, 240.1739959716797, 1036.3242797851562,
+        304.20680236816406
+      ],
+      "ClipBounds": [
+        751.9499969482422, 240.1739959716797, 1036.3242797851562,
+        304.20680236816406
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[3]/L/LI[3]/LBody",
+      "Text": "Is there a specific technical, functional, or customer domain area where you\u2019d like to gain knowledge or experience? ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        751.9499969482422, 190.75399780273438, 1014.2111968994141,
+        232.6387939453125
+      ],
+      "ClipBounds": [
+        751.9499969482422, 190.75399780273438, 1014.2111968994141,
+        232.6387939453125
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[3]/L/LI[4]/LBody",
+      "Text": "Are there skills you\u2019re interested in developing? What are they, and why? ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        1120.75, 433.49000549316406, 1363.3802947998047, 511.1439971923828
+      ],
+      "ClipBounds": [
+        1120.75, 433.49000549316406, 1363.3802947998047, 511.1439971923828
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "Arial-BoldMT",
+        "subset": false,
+        "weight": 700
+      },
+      "HasClip": true,
+      "Lang": "en",
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[3]/Aside/P",
+      "Text": "Conversation Tips ",
+      "TextSize": 38.0,
+      "attributes": { "SpaceAfter": 18 }
+    },
+    {
+      "Bounds": [
+        1108.3500061035156, 317.7740020751953, 1399.7887878417969,
+        406.60679626464844
+      ],
+      "ClipBounds": [
+        1108.3500061035156, 317.7740020751953, 1399.7887878417969,
+        406.60679626464844
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[3]/Aside/L/LI/LBody",
+      "Text": "Approach the dialogue with an open mind and actively listen; you should be talking only 25% of the time and not immediately go into \"solution mode\". ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        1108.3500061035156, 268.35400390625, 1393.7903900146484,
+        307.57679748535156
+      ],
+      "ClipBounds": [
+        1108.3500061035156, 268.35400390625, 1393.7903900146484,
+        307.57679748535156
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[3]/Aside/L/LI[2]/LBody",
+      "Text": "Ask open-ended questions to ensure you fully understand your associate. ",
+      "TextSize": 15.600006103515625
+    },
+    {
+      "Bounds": [
+        1108.3500061035156, 218.73875427246094, 1401.8652038574219,
+        260.83880615234375
+      ],
+      "ClipBounds": [
+        1108.3500061035156, 218.73875427246094, 1401.8652038574219,
+        260.83880615234375
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[3]/Aside/L/LI[3]/LBody",
+      "Text": "Be supportive. Show that you\u2019re genuinely interested in learning about them. ",
+      "TextSize": 15.625
+    },
+    {
+      "Bounds": [
+        1108.3500061035156, 119.91874694824219, 1390.6199951171875,
+        211.40879821777344
+      ],
+      "ClipBounds": [
+        1108.3500061035156, 119.91874694824219, 1390.6199951171875,
+        211.40879821777344
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": false,
+        "encoding": "WinAnsiEncoding",
+        "family_name": "Arial MT",
+        "font_type": "TrueType",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[3]/Aside/L/LI[4]/LBody",
+      "Text": "It\u2019s OK to not have all the answers. Be honest and explain that you don\u2019t know, and offer to research the answer or point them elsewhere for information. ",
+      "TextSize": 15.625
+    },
+    {
+      "Bounds": [
+        1349.719970703125, 46.322998046875, 1376.419921875, 47.62300109863281
+      ],
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[3]/Aside/L/LI[5]/LBody/Figure",
+      "attributes": {
+        "BBox": [
+          1349.9499999999534, 46.47109999999884, 1376.219999999972,
+          47.430999999998676
+        ]
+      }
+    },
+    {
+      "Bounds": [
+        1108.3500061035156, 20.768753051757812, 1399.1147918701172,
+        112.38380432128906
+      ],
+      "ClipBounds": [
+        1108.3500061035156, 20.768753051757812, 1399.1147918701172,
+        112.38380432128906
+      ],
+      "Font": {
+        "alt_family_name": "Arial",
+        "embedded": true,
+        "encoding": "Identity-H",
+        "family_name": "Arial MT",
+        "font_type": "CIDFontType2",
+        "italic": false,
+        "monospaced": false,
+        "name": "ArialMT",
+        "subset": false,
+        "weight": 400
+      },
+      "HasClip": true,
+      "Page": 3,
+      "Path": "//Document/Sect[6]/Sect[3]/Aside/L/LI[5]/LBody",
+      "Text": "If you\u2019re unclear, repeat what you think you heard to find out if you got it right: \u201cI think you said that you enjoy doing , is that correct?\u201d ",
+      "TextSize": 15.625
+    }
+  ],
+  "pages": [
+    {
+      "boxes": {
+        "CropBox": [0.0, 0.0, 1440.0, 810.0],
+        "MediaBox": [0.0, 0.0, 1440.0, 810.0]
+      },
+      "height": 810.0,
+      "is_scanned": false,
+      "page_number": 0,
+      "rotation": 0,
+      "width": 1440.0
+    },
+    {
+      "boxes": {
+        "CropBox": [0.0, 0.0, 1440.0, 810.0],
+        "MediaBox": [0.0, 0.0, 1440.0, 810.0]
+      },
+      "height": 810.0,
+      "is_scanned": false,
+      "page_number": 1,
+      "rotation": 0,
+      "width": 1440.0
+    },
+    {
+      "boxes": {
+        "CropBox": [0.0, 0.0, 1440.0, 810.0],
+        "MediaBox": [0.0, 0.0, 1440.0, 810.0]
+      },
+      "height": 810.0,
+      "is_scanned": false,
+      "page_number": 2,
+      "rotation": 0,
+      "width": 1440.0
+    },
+    {
+      "boxes": {
+        "CropBox": [0.0, 0.0, 1440.0, 810.0],
+        "MediaBox": [0.0, 0.0, 1440.0, 810.0]
+      },
+      "height": 810.0,
+      "is_scanned": false,
+      "page_number": 3,
+      "rotation": 0,
+      "width": 1440.0
+    }
+  ]
+}
