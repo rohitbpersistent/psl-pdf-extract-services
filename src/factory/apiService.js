@@ -1,8 +1,8 @@
 let axios = require('axios');
 
 function ApiService(data) {
-    return;
-    console.log('API serviec', data)
+    // return;
+    // console.log('API serviec', data)
     const headers = {
         'accept': 'application/json',
         'Content-Type': 'application/json',
@@ -50,7 +50,6 @@ function ApiService(data) {
     //     }]
     //   };
       
-    
     axios.post('https://searchassist-app.kore.ai/searchassistapi/external/stream/st-beccc06c-dff7-5316-a4a2-406ccf58a27e/ingest?contentSource=manual&extractionType=data&index=true', 
                 payload, 
                 { headers })

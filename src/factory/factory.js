@@ -51,11 +51,11 @@ const prepareStructureData = (rawData, PDF_SOURCE_FILE_NAME) => {
     
     let structureRows = allSections.map((section) => {
         if (section) {
-
+            // Get sectionwise data from rawData
             let sectionData = rawData.elements.filter((ele) => ele.Path.includes(section));
             let type = getSectionType(sectionData, section)
-            // Get sectionwise data from rawData
-            let sectionArr = []            
+            
+            let sectionArr = []
             // Identify template
             switch(type) {
                 case 'text-only':
@@ -105,7 +105,7 @@ const isImage = (row) => {
     return row.Path.includes('/Figure') ? true : false;
 }
 
-const getSectionwiseData = (sectionData, sectionName, PDF_SOURCE_FILE_NAME) => {
+const getSectionwiseData = (sectionData, section, PDF_SOURCE_FILE_NAME) => {
     // Get Section name from path
     
     let titleArr = []
@@ -125,7 +125,8 @@ module.exports = Factory
 // To run only Factory method
 // Text only C:\roe\project\psl-pdf-extract-services\src\extractpdf\output\ExtractTextInfoFromPDF\extract2023-12-01T16-15-40.zip
 // const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-01T15-31-00.zip'
-// // Image text only
-const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-01T16-15-40.zip'
 
-Factory.process(outputpath, 'O&S Educational Assistance Program Policy.pdf')
+// // Image text only
+// const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-01T16-15-40.zip'
+
+// Factory.process(outputpath, 'O&S Educational Assistance Program Policy.pdf')
