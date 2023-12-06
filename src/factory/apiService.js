@@ -1,12 +1,14 @@
 let axios = require('axios');
 
 function ApiService(data) {
-    // return;
-    // console.log('API serviec', data)
+    console.log('API serviec', data)
+    return;
+    
     const headers = {
         'accept': 'application/json',
         'Content-Type': 'application/json',
         'auth': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6ImNzLTk1NDIwYzI3LTMzMjEtNWUyMi1hZjlhLWM3ZDhlNjFkOTZkOSJ9.PqqQEwa8-m7vD8rLlascv5YAhqtYTKKcEKPA5Di1DSw'
+        // 'auth': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6ImNzLTI2Y2ZhYTc3LTI2ODktNTIxZS05OGE4LTM3OGJlZjlmZmY5ZSJ9.EvsfXMjM7z8dtLWEaz859EtEBvpYyaMy4UN6DTnCFpA'
       };
       
     
@@ -51,6 +53,7 @@ function ApiService(data) {
     //   };
       
     axios.post('https://searchassist-app.kore.ai/searchassistapi/external/stream/st-beccc06c-dff7-5316-a4a2-406ccf58a27e/ingest?contentSource=manual&extractionType=data&index=true', 
+    // axios.post('https://searchassist-app.kore.ai/searchassistapi/external/stream/st-f9c8abc7-e1a4-5735-84b4-cc08f25deb31/ingest?contentSource=manual&extractionType=data&index=true', 
                 payload, 
                 { headers })
          .then(response => {

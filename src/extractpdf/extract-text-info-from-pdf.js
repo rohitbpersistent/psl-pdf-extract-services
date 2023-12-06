@@ -11,6 +11,7 @@
 const Factory = require('../factory/factory')
 const PDFServicesSdk = require('@adobe/pdfservices-node-sdk');
 const PDF_SOURCE_FILE_NAME = 'O&S Educational Assistance Program Policy.pdf'
+// const PDF_SOURCE_FILE_NAME = 'ERISA Appeals Procedure_2023.pdf'
 /**
  * This sample illustrates how to extract Text Information from PDF.
  * <p>

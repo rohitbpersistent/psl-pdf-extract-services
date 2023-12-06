@@ -59,10 +59,10 @@ const prepareStructureData = (rawData, PDF_SOURCE_FILE_NAME) => {
             // Identify template
             switch(type) {
                 case 'text-only':
-                    sectionArr = getSectionwiseData(sectionData, section, PDF_SOURCE_FILE_NAME)
+                    sectionArr = getSectionwiseData(sectionData, section, PDF_SOURCE_FILE_NAME, rawData)
                     break;
                 case 'text-image':
-                    sectionArr = getSectionwiseData(sectionData, section, PDF_SOURCE_FILE_NAME)
+                    sectionArr = getSectionwiseData(sectionData, section, PDF_SOURCE_FILE_NAME, rawData)
                     break;
                 case 'text-image-table':
                     break;
@@ -105,11 +105,23 @@ const isImage = (row) => {
     return row.Path.includes('/Figure') ? true : false;
 }
 
-const getSectionwiseData = (sectionData, section, PDF_SOURCE_FILE_NAME) => {
+const getSectionwiseData = (sectionData, section, PDF_SOURCE_FILE_NAME, rawData) => {
     // Get Section name from path
     
     let titleArr = []
-    let titleStr = sectionData.filter((e) => isHeader(e)).map((mEle) => mEle.Text)[0];
+    let titleStr = ''
+
+    if (section === 'Sect2') {
+        // Check Title is present
+        // sectionData.filter((e) => isHeader(e)).map((mEle) => mEle.Text)[0];
+        // For only section-2
+        titleStr = sectionData.filter((e) => isHeader(e)).map((mEle) => mEle.Text)[0];
+    } else {
+        // For other sections
+        titleStr = sectionData.filter((e) => isHeader(e)).map((mEle) => mEle.Text)[0];
+    }
+
+    
     titleArr.push(titleStr)
     let content = sectionData.filter((e) => isParagraph(e)).map((mEle) => mEle.Text).join(' ')
     
@@ -127,6 +139,10 @@ module.exports = Factory
 // const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-01T15-31-00.zip'
 
 // // Image text only
-// const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-01T16-15-40.zip'
+const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-01T16-15-40.zip'
+Factory.process(outputpath, 'O&S Educational Assistance Program Policy.pdf')
 
-// Factory.process(outputpath, 'O&S Educational Assistance Program Policy.pdf')
+// Text only 2
+// const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-06T10-23-16.zip'
+// Factory.process(outputpath, 'ERISA Appeals Procedure_2023.pdf')
+
