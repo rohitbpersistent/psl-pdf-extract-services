@@ -7,15 +7,15 @@ const AdmZip = require('adm-zip');
 const ApiService = require('./apiService')
 
 const JSON_FILE_NAME = 'structuredData.json';
-const JSON_FILE_FOLDER = '../extractpdf/output/ExtractTextInfoFromPDF/';
-const CLIENT_DOC_URL = 'https://www.conference-board.org/publications/'
+const JSON_FILE_FOLDER = '../factory/output/ExtractTextInfoFromPDF/';
+const CLIENT_DOC_URL = 'https://www.conference-board.org/publications/';
 
 
 const Factory = {
     process : (outputpath, PDF_SOURCE_FILE_NAME) => {
         console.log('In process')
         // Delete file if already exist
-        // if (fs.existsSync(outputpath)) fs.unlinkSync(outputpath);        
+        // if (fs.existsSync(outputpath)) fs.unlinkSync(outputpath);
         // Read json file
         try {
             let zip = new AdmZip(outputpath);
@@ -113,7 +113,8 @@ const getSectionwiseData = (sectionData, section, PDF_SOURCE_FILE_NAME, rawData)
 
     if (section === 'Sect2') {
         // Check Title is present
-        // sectionData.filter((e) => isHeader(e)).map((mEle) => mEle.Text)[0];
+        let strTitle = sectionData.filter((e) => isTitle(e)).map((mEle) => mEle.Text)[0];
+        console.log('strTitle', strTitle)
         // For only section-2
         titleStr = sectionData.filter((e) => isHeader(e)).map((mEle) => mEle.Text)[0];
     } else {
@@ -138,9 +139,9 @@ module.exports = Factory
 // Text only C:\roe\project\psl-pdf-extract-services\src\extractpdf\output\ExtractTextInfoFromPDF\extract2023-12-01T16-15-40.zip
 // const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-01T15-31-00.zip'
 
-// // Image text only
-const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-01T16-15-40.zip'
-Factory.process(outputpath, 'O&S Educational Assistance Program Policy.pdf')
+// // Image text 
+// const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-01T16-15-40.zip'
+// Factory.process(outputpath, 'O&S Educational Assistance Program Policy.pdf')
 
 // Text only 2
 // const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-06T10-23-16.zip'
