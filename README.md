@@ -8,6 +8,9 @@
  [![Node.js](https://img.shields.io/badge/Node.js-18.16.x-green.svg?logo=node.js&style=flat-square)](https://nodejs.org/)
 
 ## About the project
+
+![Alt text](/assets/utility-PLT.jpg)
+
 This is a basic utility which extracts data from PDF file(s) and transforms the extracted data to the [Searchassist](https://kore.ai/searchassist/) required format.
 This utility is internally using [Adobe PDF Extract API](https://developer.adobe.com/document-services/apis/pdf-extract/) to extract the data from PDF files 
 
@@ -72,6 +75,4 @@ This command will start the utility process to extract the PDF files and transfo
 
 
    
-
-
 
