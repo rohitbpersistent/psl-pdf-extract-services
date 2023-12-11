@@ -8,10 +8,10 @@
  * then your use, modification, or distribution of it requires the prior
  * written permission of Adobe.
  */
-const Factory = require('../factory/factory')
+const Factory = require('../factory/factory');
 const PDFServicesSdk = require('@adobe/pdfservices-node-sdk');
 const PDF_SOURCE_FILE_NAME = 'O&S Educational Assistance Program Policy.pdf'
-const OUTPUT_FOLDER_ = '../factory/' 
+const OUTPUT_FOLDER_ = '../factory/'
 // const PDF_SOURCE_FILE_NAME = 'ERISA Appeals Procedure_2023.pdf'
 /**
  * This sample illustrates how to extract Text Information from PDF.
@@ -19,9 +19,9 @@ const OUTPUT_FOLDER_ = '../factory/'
  * Refer to README.md for instructions on how to run the samples & understand output zip file.
  */
 const credentials =  PDFServicesSdk.Credentials
-        .servicePrincipalCredentialsBuilder("67791E54653F804A0A495C34@AdobeOrg")
-        .withClientId("d47569f0293642c089f66b75b9bf2559")
-        .withClientSecret('p8e-l2PXXm84prRYp3EZjUYzoGSQ6GJD-534')
+        .servicePrincipalCredentialsBuilder(process.env.ADOBE_SERVICE_PRINCIPAL_CREDENTIALS_BUILDER)
+        .withClientId(process.env.ADOBE_CLIENT_ID)
+        .withClientSecret(process.env.ADOBE_CLIENT_SECRET)
         .build();
 
 const ExtractTextFromPdf = (sourcePdfFile) => {
@@ -58,13 +58,15 @@ const ExtractTextFromPdf = (sourcePdfFile) => {
         extractPDFOperation.setOptions(options);
     
         //Generating a file name
+        let tmpArr = sourcePdfFile.split('/')
+        let fileName = tmpArr[tmpArr.length-1]
         let outputFilePath = createOutputFilePath();
         console.log('outputFilePath', outputFilePath); 
         extractPDFOperation.execute(executionContext)
             .then(result => result.saveAsFile(outputFilePath))
             .then(() => {
                 console.log('Routing to Factory')
-                Factory.process(`${OUTPUT_FOLDER_}${outputFilePath}`, PDF_SOURCE_FILE_NAME)
+                Factory.process(`${OUTPUT_FOLDER_}${outputFilePath}`, fileName)
             })
             .catch(err => {
                 if(err instanceof PDFServicesSdk.Error.ServiceApiError
@@ -81,7 +83,7 @@ const ExtractTextFromPdf = (sourcePdfFile) => {
             let dateString = date.getFullYear() + "-" + ("0" + (date.getMonth() + 1)).slice(-2) + "-" +
                 ("0" + date.getDate()).slice(-2) + "T" + ("0" + date.getHours()).slice(-2) + "-" +
                 ("0" + date.getMinutes()).slice(-2) + "-" + ("0" + date.getSeconds()).slice(-2);
-            return ("output/ExtractTextInfoFromPDF/extract" + dateString + ".zip");
+            return ("output/ExtractTextInfoFromPDF/extract_"+ sourcePdfFile + '_' + dateString + ".zip");
         }
     
     } catch (err) {

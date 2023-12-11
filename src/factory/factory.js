@@ -13,7 +13,7 @@ const CLIENT_DOC_URL = 'https://www.conference-board.org/publications/';
 
 const Factory = {
     process : (outputpath, PDF_SOURCE_FILE_NAME) => {
-        console.log('In process')
+        
         // Delete file if already exist
         // if (fs.existsSync(outputpath)) fs.unlinkSync(outputpath);
         // Read json file
@@ -32,25 +32,21 @@ const Factory = {
     }
 }
 
-const processPagewiseData = (extractedRawData) => {
-
-}
-
-const onlyTextPageProcess = () => {
-
-}
-
-const imageTextPageProcess = () => {
-    
-}
-
 const prepareStructureData = (rawData, PDF_SOURCE_FILE_NAME) => {
+    // Filter data
+    rawData.elements = rawData.elements.map((row) => {
+        if (row.Path.includes('/Lbl')) {
+            row.Text = ' \n ' + row.Text
+        }
+        return row;
+    })
+
     //Get all section 
     let allSectionArr = rawData.elements.map((ele) => ele.Path.split('/').filter((e) => e.includes('Sect'))[0])
     let allSections = [...new Set(allSectionArr)]
     
     let structureRows = allSections.map((section) => {
-        if (section) {
+        if (section && section !== 'Sect') {
             // Get sectionwise data from rawData
             let sectionData = rawData.elements.filter((ele) => ele.Path.includes(section));
             let type = getSectionType(sectionData, section)
@@ -78,15 +74,11 @@ const prepareStructureData = (rawData, PDF_SOURCE_FILE_NAME) => {
 }
 
 const getSectionType = (sectionData, sectionName) => {
-    let sectionArr = sectionData.find((ele) => isImage(ele));
-    // console.log('sectionArr', sectionArr)
+    let sectionArr = sectionData.find((ele) => isImage(ele));    
     if (sectionArr) {
         return 'text-image'
     } 
-    return 'text-only'
-    // for(let i = 0; i < sectionArr.length; i++) {
-        
-    // }    
+    return 'text-only'        
 }
 
 const isTitle = (row) => {
@@ -98,14 +90,14 @@ const isHeader = (row) => {
 }
 
 const isParagraph = (row) => {
-    return row.Path.includes('/P') || row.Path.includes('/LBody') || row.Path.includes('/Lbl') || row.Path.includes('/ParagraphSpan') ? true : false;
+    return row.Path.includes('/P') || row.Path.includes('/Figure') || row.Path.includes('/LBody') || row.Path.includes('/Lbl') || row.Path.includes('/ParagraphSpan') ? true : false;
 }
 
 const isImage = (row) => {
     return row.Path.includes('/Figure') ? true : false;
 }
 
-const getSectionwiseData = (sectionData, section, PDF_SOURCE_FILE_NAME, rawData) => {
+const getSectionwiseTextData = (sectionData, section, PDF_SOURCE_FILE_NAME, rawData) => {
     // Get Section name from path
     
     let titleArr = []
@@ -114,7 +106,7 @@ const getSectionwiseData = (sectionData, section, PDF_SOURCE_FILE_NAME, rawData)
     if (section === 'Sect2') {
         // Check Title is present
         let strTitle = sectionData.filter((e) => isTitle(e)).map((mEle) => mEle.Text)[0];
-        console.log('strTitle', strTitle)
+        // console.log('strTitle', strTitle)
         // For only section-2
         titleStr = sectionData.filter((e) => isHeader(e)).map((mEle) => mEle.Text)[0];
     } else {
@@ -124,8 +116,12 @@ const getSectionwiseData = (sectionData, section, PDF_SOURCE_FILE_NAME, rawData)
 
     
     titleArr.push(titleStr)
+    
     let content = sectionData.filter((e) => isParagraph(e)).map((mEle) => mEle.Text).join(' ')
     
+    // Replace string
+    content = content.replaceAll('•', '\n•')
+
     return {
         title: titleArr,
         content: content,
@@ -134,16 +130,3 @@ const getSectionwiseData = (sectionData, section, PDF_SOURCE_FILE_NAME, rawData)
 }
 
 module.exports = Factory
-
-// To run only Factory method
-// Text only C:\roe\project\psl-pdf-extract-services\src\extractpdf\output\ExtractTextInfoFromPDF\extract2023-12-01T16-15-40.zip
-// const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-01T15-31-00.zip'
-
-// // Image text 
-// const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-01T16-15-40.zip'
-// Factory.process(outputpath, 'O&S Educational Assistance Program Policy.pdf')
-
-// Text only 2
-// const outputpath = '../extractpdf/output/ExtractTextInfoFromPDF/extract2023-12-06T10-23-16.zip'
-// Factory.process(outputpath, 'ERISA Appeals Procedure_2023.pdf')
-
