@@ -32,3 +32,46 @@ Project is built with the following technologies,
 * [![Node.js](https://img.shields.io/badge/Node.js-18.16.x-green.svg?logo=node.js&style=flat-square)](https://nodejs.org/)
 
 ## Getting Started
+### Prerequisites
+\
+As this utility is using [Node.JS](https://nodejs.org/en), your system should have [Node.JS](https://nodejs.org/en) installed.\
+Currently it tested on [V18.16.1](https://nodejs.org/en/blog/release/v18.16.1)\
+If you dont have NodeJS installed, You can follow installation step from [Install NodeJS](https://nodejs.org/en/learn/getting-started/how-to-install-nodejs)
+
+1. You can clone the repo using, 
+
+   > `https://github.com/rohitbpersistent/psl-pdf-extract-services.git`
+
+   If http github authentication is not allowed then you can clone the project using SSH, Visit [psl-pdf-extract-services](https://github.com/rohitbpersistent/psl-pdf-extract-services) utility page.
+
+2. To use the Adobe Document Extract API, you need to create account of Adobe and generate the credentials.\
+    
+   Create account/Sign up on [Adobe](https://developer.adobe.com/document-services/apis/pdf-extract/)
+
+3. Once done with Sign up, you can generate the credentials using `Generate Credendials` menu button.\
+   Copy the newly generated credentials such as ClientId, ClientSecret etc. and paste it into the `.env` file of project.
+
+4. Add PDF file from which you want to extract data to `psl-pdf-extract-services/resources/` folder
+
+5. Now, open project directory in terminal/command prompt,\ 
+   > `cd psl-pdf-extract-services`
+
+6. Install dependencies
+   > `npm install`
+
+6. After dependencies installation, go to factory folder where the utility service is present
+   > `cd src/factory`
+
+7. Run utility using following command,
+   > `node service.js`
+
+
+This command will start the utility process to extract the PDF files and transform it to the Searchassist format followed by ingesting the data to Searchassist App.
+
+
+
+
+   
+
+
+
