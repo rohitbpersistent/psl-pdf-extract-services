@@ -74,5 +74,36 @@ This command will start the utility process to extract the PDF files and transfo
 
 
 
+## In Scope
+  #### File Type : PDF 
+  Document extraction for following types of pdf's:
+  1. Plain text pdf's
+  2. Pdf's with images, priority is to extract text only, rather than images or text from images
+  3. pdf's with multiple images
+
+  * Utility should extract special character such as /, %, &, $, - etc. within the content as well as title.
+  * Utility should extract title/heading,content/paragraph.
+  * Utility should extract numbered bullet pointers from paragraph.
+  * If paragraph/content continuing from one page to another page, it should consider as a single paragraph.
+
+## Out of Scope
+   #### Any document format other than PDF.
+   1. Excel file extraction
+   2. Word file extraction
+   3. PDF created from email
+   4. PDF created from PPT
+   5. PDF created from web
+   6. Any non-standard PDF format
+
+   * Text in multiple tables in same row is not getting extracted accurately.
+   * Pages with complex structure which include multiple images and multiple tables is not getting extracted
+   * Hyperlink from paragraph/content is not getting extracted,
+     it is considering as a separate heading.
+   * Visual diagrams such as pie chart,bar chart, graphs etc.are not covered.
+   * Searchassist specific functionality such as spell check,contextual meaning,length of content etc.
+   * Any new cases occurring in adobe extraction.
+
+
+
    
 
