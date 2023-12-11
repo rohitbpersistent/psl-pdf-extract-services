@@ -54,18 +54,20 @@ If you dont have NodeJS installed, You can follow installation step from [Instal
 3. Once done with Sign up, you can generate the credentials using `Generate Credendials` menu button.\
    Copy the newly generated credentials such as ClientId, ClientSecret etc. and paste it into the `.env` file of project.
 
-4. Add PDF file from which you want to extract data to `psl-pdf-extract-services/resources/` folder
+4. Require Searchassist configuration - API url and auth configure into .env file.
+ 
+5. Add PDF file from which you want to extract data to `psl-pdf-extract-services/resources/` folder
 
-5. Now, open project directory in terminal/command prompt,\ 
+6. Now, open project directory in terminal/command prompt,\ 
    > `cd psl-pdf-extract-services`
 
-6. Install dependencies
+7. Install dependencies
    > `npm install`
 
-6. After dependencies installation, go to factory folder where the utility service is present
+8. After dependencies installation, go to factory folder where the utility service is present
    > `cd src/factory`
 
-7. Run utility using following command,
+9. Run utility using following command,
    > `node service.js`
 
 
