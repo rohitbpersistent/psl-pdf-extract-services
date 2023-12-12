@@ -19,7 +19,7 @@ This utility assigns templates (classification) to file pages based on nature & 
 * text-image template 
 * text-image-table template
 
-Based on the templates it applies validation rules on the extracted data and transforms the data into the [Searchassist](https://kore.ai/searchassist/) required format. 
+Based on the templates it applies validation rules on the extracted data and transforms the data into the [Searchassist](https://kore.ai/searchassist/) required format and ingesting of data to Searchassist App.
 E.g.
 
 `{title: "Header line from document", content:"Paragraph and/or paragraphSpan element from extracted data as a content"}`
@@ -47,18 +47,16 @@ If you dont have NodeJS installed, You can follow installation step from [Instal
 
    If http github authentication is not allowed then you can clone the project using SSH, Visit [psl-pdf-extract-services](https://github.com/rohitbpersistent/psl-pdf-extract-services) utility page.
 
-2. To use the Adobe Document Extract API, you need to create account of Adobe and generate the credentials.\
+2. To use the Adobe Document Extract API, you need to create account of Adobe and generate the credentials.
     
    Create account/Sign up on [Adobe](https://developer.adobe.com/document-services/apis/pdf-extract/)
 
 3. Once done with Sign up, you can generate the credentials using `Generate Credendials` menu button.\
    Copy the newly generated credentials such as ClientId, ClientSecret etc. and paste it into the `.env` file of project.
 
-4. Require Searchassist configuration - API url and auth configure into .env file.
- 
-5. Add PDF file from which you want to extract data to `psl-pdf-extract-services/resources/` folder
+4. Add PDF file from which you want to extract data to `psl-pdf-extract-services/resources/upload` folder
 
-6. Now, open project directory in terminal/command prompt,\ 
+5. Now, open project directory in terminal/command prompt,
    > `cd psl-pdf-extract-services`
 
 7. Install dependencies
