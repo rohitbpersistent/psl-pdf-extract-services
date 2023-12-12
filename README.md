@@ -54,9 +54,11 @@ If you dont have NodeJS installed, You can follow installation step from [Instal
 3. Once done with Sign up, you can generate the credentials using `Generate Credendials` menu button.\
    Copy the newly generated credentials such as ClientId, ClientSecret etc. and paste it into the `.env` file of project.
 
-4. Add PDF file from which you want to extract data to `psl-pdf-extract-services/resources/upload` folder
+4. Require Searchassist configuration - API url and auth configure into .env file.
 
-5. Now, open project directory in terminal/command prompt,
+5. Add PDF file from which you want to extract data to `psl-pdf-extract-services/resources/upload` folder
+
+6. Now, open project directory in terminal/command prompt,
    > `cd psl-pdf-extract-services`
 
 7. Install dependencies
